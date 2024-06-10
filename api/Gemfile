@@ -1,0 +1,13 @@
+source "https://rubygems.org"
+
+gem 'praxis'
+gem 'rack'
+
+group :development, :test do
+  gem 'rack-test'
+  gem "rspec" # needed for rake task
+
+  gem 'rake'
+  gem 'pry'
+  gem 'pry-byebug'
+end
